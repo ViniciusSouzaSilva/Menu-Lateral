@@ -1,0 +1,56 @@
+body
+{
+    margin: 0px;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    padding: 10px;
+    background-color: black;
+    transition: margin-left 0.3s;
+}
+
+nav
+{
+    height: 100%;
+    width: 0px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+nav a
+{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.btn-abrir
+{
+    font-size: 22px;
+    color: white;
+}
+
+main
+{
+    transition: margin-left 0.4s;
+    padding-left: 10px;
+}
